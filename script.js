@@ -35,7 +35,7 @@ fetch('https://ghibliapi.herokuapp.com/people')
             card.appendChild(gender);
 
             let films_for = document.createElement('a')
-            films_for.setAttribute('href', 'people.films')
+            films_for.setAttribute('href', people.films)
             films_for.textContent = 'click here'
             card.appendChild(films_for);
 
